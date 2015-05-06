@@ -1,0 +1,6 @@
+package p2p;
+
+message LoanInfo{
+    optional uint64 loan_id = 1;
+    optional string desc = 2;
+    }
